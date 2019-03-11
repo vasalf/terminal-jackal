@@ -1,5 +1,6 @@
-#include <jackal.h>
+#include <Controller.h>
 
 int main() {
-    return NJackal::RunMain();
+    Controller controller;
+    controller.run();
 }
