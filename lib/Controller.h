@@ -2,6 +2,7 @@
 
 #include "UI.h"
 #include "Map.h"
+#include "AbstractPlayer.h"
 
 #include <vector>
 #include <memory>
