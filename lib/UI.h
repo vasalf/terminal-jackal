@@ -6,7 +6,7 @@ enum class ChipType {SHIP, PIRATE_0 = 0, PIRATE_1 = 1, PIRATE_2 = 2};
 
 class UI {
 private:
-    PLAYERS_MAX_COUNT = 4;
+    static const size_t PLAYERS_MAX_COUNT = 4;
 
     UI(UI &) = delete;
     UI(UI &&) = delete;

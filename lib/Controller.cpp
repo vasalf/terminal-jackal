@@ -21,9 +21,9 @@ void Controller::run() const {
     
     while (true) {
         for (shared_ptr<AbstractPlayer> player : players) {
-            map.draw_map();
+            ui.draw_map();
 
-            ui.start_move(player->get_numper());
+            ui.start_move(player->get_number());
 
             player->move();
         }
