@@ -1,11 +1,10 @@
 #pragma once
 
-#include "UI.h"
-#include "Map.h"
-#include "AbstractPlayer.h"
+#include "Utils.h"
+#include "ui/UI.h"
+#include "field/Field.h"
 
 #include <vector>
-#include <memory>
 
 namespace NJackal {
 
